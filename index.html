@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MATREB FARM grows quality agricultural produce in Ogbomoso, Oyo State, Nigeria.">
+  <title>MATREB FARM | Growing a Greener Future</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar">
+    <p>Growing quality crops. Building a sustainable future.</p>
+  </div>
+
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo">
+        <span class="logo-icon">🌿</span>
+        <span>MATREB <strong>FARM</strong><small>GROWING WITH PURPOSE</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#crops">Our Crops</a></li>
+        <li><a href="#process">Our Approach</a></li>
+        <li><a href="#cart">Shopping Cart</a></li>
+        <li><a href="#contact" class="nav-button">Contact Us ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow hero-eyebrow"><span class="dot"></span> ROOTED IN NATURE, GROWING FOR TOMORROW</span>
+        <h1>Growing Today.<br><span>Feeding Tomorrow.</span></h1>
+        <p>At MATREB FARM, we believe every seed holds the promise of a better future. We are committed to growing quality crops and contributing to a more sustainable food system.</p>
+        <div class="hero-buttons">
+          <a href="#crops" class="btn btn-primary">Explore Our Crops <span>→</span></a>
+          <a href="#about" class="btn btn-outline">Discover Our Farm</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✳</span><span>Quality crops. Responsible farming. Lasting impact.</span></div>
+      </div>
+      <div class="hero-side-label">CULTIVATING A BETTER TOMORROW</div>
+    </section>
+
+    <section class="highlights">
+      <div class="container highlight-grid">
+        <div class="highlight-item"><span class="highlight-icon">🌱</span><div><h3>Crop Farming</h3><p>Focused on growing crops</p></div></div>
+        <div class="highlight-item"><span class="highlight-icon">🌍</span><div><h3>Sustainability</h3><p>Mindful farming practices</p></div></div>
+        <div class="highlight-item"><span class="highlight-icon">🤝</span><div><h3>Partnerships</h3><p>Growing together</p></div></div>
+        <div class="highlight-item"><span class="highlight-icon">🌾</span><div><h3>Quality Produce</h3><p>Care from seed to harvest</p></div></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-images">
+          <img class="about-main-image" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=85" alt="Green agricultural fields stretching across the landscape" loading="lazy">
+          <div class="image-caption"><span class="caption-icon">🌿</span><div><strong>Rooted in the land</strong><p>Growing with purpose</p></div></div>
+          <div class="about-small-image"><img src="https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?auto=format&fit=crop&w=500&q=80" alt="Healthy green crops growing in a field" loading="lazy"></div>
+        </div>
+
+        <div class="about-content">
+          <span class="eyebrow"><span class="dot"></span> WHO WE ARE</span>
+          <h2>Farming with purpose.<br><span>Growing with passion.</span></h2>
+          <p>MATREB FARM is a crop farming brand built around the value of agriculture and the importance of quality food production.</p>
+          <p>Our vision is to cultivate healthy crops, adopt responsible farming practices, and build lasting relationships with customers, businesses, and communities.</p>
+          <div class="about-points">
+            <div><span class="check">✓</span><span>Commitment to quality</span></div>
+            <div><span class="check">✓</span><span>Responsible crop production</span></div>
+            <div><span class="check">✓</span><span>Long-term agricultural growth</span></div>
+          </div>
+          <a href="#contact" class="text-link">Let's grow together <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section crops-section" id="crops">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow"><span class="dot"></span> WHAT WE GROW</span><h2>From our farm<br><span>to your table.</span></h2></div>
+          <p>Discover the crops that form the heart of our agricultural operations. Add products to your cart or contact us to discuss availability and supply.</p>
+        </div>
+
+        <div class="crop-grid">
+          <article class="crop-card">
+            <div class="crop-image"><img src="images/Golden Corn Field 🌽 _ High Quality Maize Crop Farming Photography.jpg" alt="Golden ears of maize" loading="lazy"><span class="crop-number">01</span></div>
+            <div class="crop-info"><span class="crop-category">GRAINS</span><h3>Maize</h3><p>A versatile crop used in food production and animal feed.</p><p class="product-price">Sample price: ₦45,000</p><a href="#contact" class="crop-link" data-crop="Maize">Enquire about maize <span>↗</span></a><button class="add-to-cart" type="button" data-product="Maize" data-price="45000">Add to Cart</button></div>
+          </article>
+
+          <article class="crop-card">
+            <div class="crop-image"><img src="images/Cassava plant (3-4 ft tall).jpg" alt="Cassava plant" loading="lazy"><span class="crop-number">02</span></div>
+            <div class="crop-info"><span class="crop-category">ROOT CROPS</span><h3>Cassava</h3><p>An important staple crop with many food and processing uses.</p><p class="product-price">Sample price: ₦20,000</p><a href="#contact" class="crop-link" data-crop="Cassava">Enquire about cassava <span>↗</span></a><button class="add-to-cart" type="button" data-product="Cassava" data-price="20000">Add to Cart</button></div>
+          </article>
+
+          <article class="crop-card">
+            <div class="crop-image"><img src="images/Rice.jpg" alt="Rice grains" loading="lazy"><span class="crop-number">03</span></div>
+            <div class="crop-info"><span class="crop-category">GRAINS</span><h3>Rice</h3><p>A widely consumed staple crop for homes and food businesses.</p><p class="product-price">Sample price: ₦80,000</p><a href="#contact" class="crop-link" data-crop="Rice">Enquire about rice <span>↗</span></a><button class="add-to-cart" type="button" data-product="Rice" data-price="80000">Add to Cart</button></div>
+          </article>
+
+          <article class="crop-card">
+            <div class="crop-image"><img src="images/cashew.jpg" alt="Cashew produce" loading="lazy"><span class="crop-number">04</span></div>
+            <div class="crop-info"><span class="crop-category">OTHER CROPS</span><h3>Cashew</h3><p>Discover our cashew produce and agricultural supply opportunities.</p><p class="product-price">Sample price: ₦60,000</p><a href="#contact" class="crop-link" data-crop="Cashew">Enquire about cashew <span>↗</span></a><button class="add-to-cart" type="button" data-product="Cashew" data-price="60000">Add to Cart</button></div>
+          </article>
+        </div>
+        <p class="crop-disclaimer">Prices shown are sample values for website testing. Confirm the selling price, quantity or unit, and availability before accepting customer orders.</p>
+
+        <section class="cart-section" id="cart" aria-labelledby="cart-heading">
+          <div class="cart-heading"><span class="eyebrow"><span class="dot"></span> YOUR SELECTION</span><h2 id="cart-heading">Shopping <span>Cart</span></h2></div>
+          <div id="cart-items" class="cart-items" aria-live="polite"><p>Your shopping cart is empty.</p></div>
+          <div class="cart-summary">
+            <div><span>Order subtotal</span><strong id="cart-total">₦0</strong></div>
+            <p>Delivery charges, final quantities and availability will be confirmed with you on WhatsApp.</p>
+            <button class="btn btn-primary checkout-button" id="checkout-button" type="button" disabled>Proceed to Checkout <span>→</span></button>
+          </div>
+
+          <div class="checkout-form" id="checkout-form" hidden>
+            <h3>Customer Details</h3>
+            <p>Please provide your details so MATREB FARM can respond to your order.</p>
+            <form id="order-form">
+              <div class="form-field"><label for="customer-name">Full Name</label><input type="text" id="customer-name" name="customer-name" autocomplete="name" required placeholder="Enter your full name"></div>
+              <div class="form-field"><label for="customer-phone">Phone Number</label><input type="tel" id="customer-phone" name="customer-phone" autocomplete="tel" required pattern="[0-9+() -]{7,20}" placeholder="e.g. 08012345678"></div>
+              <div class="form-field"><label for="customer-address">Delivery Address</label><textarea id="customer-address" name="customer-address" autocomplete="street-address" required placeholder="Enter your full delivery address"></textarea></div>
+              <div class="form-field"><label for="order-instructions">Additional Instructions (optional)</label><textarea id="order-instructions" name="order-instructions" placeholder="Any extra information about your order"></textarea></div>
+              <button class="btn btn-primary" type="submit">Send Order to WhatsApp <span>↗</span></button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="process-heading">
+          <span class="eyebrow light-eyebrow"><span class="dot"></span> OUR APPROACH</span>
+          <h2>Good farming starts<br>with <span>good choices.</span></h2>
+          <p>We believe that thoughtful planning and careful crop management are essential to building a strong farm.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-card"><span class="process-number">01</span><span class="process-icon">🌱</span><h3>Plan & Prepare</h3><p>Prepare the land and select crops suited to the growing conditions.</p></div>
+          <div class="process-card"><span class="process-number">02</span><span class="process-icon">🌿</span><h3>Plant & Nurture</h3><p>Care for crops through appropriate management and monitoring.</p></div>
+          <div class="process-card"><span class="process-number">03</span><span class="process-icon">🌾</span><h3>Harvest & Supply</h3><p>Plan harvesting and connect produce with customers and buyers.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-content">
+        <div><span class="eyebrow light-eyebrow"><span class="dot"></span> LET'S WORK TOGETHER</span><h2>Have a need for quality<br>agricultural produce?</h2><p>Let's talk about your crop supply needs and opportunities.</p></div>
+        <a href="#contact" class="btn btn-light">Get in Touch <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-content">
+          <span class="eyebrow"><span class="dot"></span> CONTACT US</span>
+          <h2>Let's grow<br><span>something great.</span></h2>
+          <p>Interested in our crops, agricultural partnerships, or working with MATREB FARM? Send us a message.</p>
+          <div class="contact-detail"><span class="detail-icon">✉</span><div><strong>Email</strong><p><a href="mailto:matrebfarm@gmail.com">matrebfarm@gmail.com</a></p></div></div>
+          <div class="contact-detail"><span class="detail-icon">☎</span><div><strong>Phone</strong><p><a href="tel:07038739595">07038739595</a> / <a href="tel:09164203533">09164203533</a></p></div></div>
+          <div class="contact-detail"><span class="detail-icon">⌖</span><div><strong>Location</strong><p>Olabode Village, Ogbomoso, Oyo State, Nigeria</p></div></div>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>Send us a message</h3>
+          <form id="contact-form">
+            <div class="form-field"><label for="name">Your Name</label><input type="text" id="name" name="name" required placeholder="Enter your name"></div>
+            <div class="form-field"><label for="email">Email Address</label><input type="email" id="email" name="email" required placeholder="Enter your email"></div>
+            <div class="form-field"><label for="interest">What are you interested in?</label><select id="interest" name="interest" required><option value="">Select an option</option><option value="Maize">Maize</option><option value="Cassava">Cassava</option><option value="Rice">Rice</option><option value="Cashew">Cashew</option><option value="Other crops">Other crops</option><option value="Partnership">Partnership</option><option value="Other">Other</option></select></div>
+            <div class="form-field"><label for="message">Your Message</label><textarea id="message" name="message" required placeholder="How can we help you?"></textarea></div>
+            <button class="btn btn-primary" type="submit">Submit Enquiry <span>→</span></button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+          <p class="form-note">This demo form displays a confirmation on this page. Connect an email service to receive submissions.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo footer-logo"><span class="logo-icon">🌿</span><span>MATREB <strong>FARM</strong><small>GROWING WITH PURPOSE</small></span></a>
+      <p>Growing quality crops. Building a sustainable future.</p>
+      <p>© <span id="year"></span> MATREB FARM. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
